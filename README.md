@@ -67,10 +67,9 @@ The model can be downloaded from  https://keras.io/examples/audio/ctc_asr/
 Below are the results  got from trained transformer.
 
 
+![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred_1.png)
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/)
-
-![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/)
+![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred_2.png)
 
 
 ## How to use.
@@ -83,5 +82,5 @@ It will automatically start recording and result will be saved in a text file
 
 ## End Notes
 
-The predictions are not upto the mark. The main reason is because of little data.
-It will  perform well if we have atleast 50 training epochs with different accents and with different noises .
+The predictions are not upto the mark.
+It will  perform well if we trainatleast 50 epochs with different accents and noises .
