@@ -11,9 +11,7 @@ Note taking bot can make a participant more focus on meeting rather than taking 
 we have used Automatic speech recognition with a CTC loss to create the bot 
 
 ref : https://keras.io/examples/audio/ctc_asr/. 
-
-![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/)
-                
+              
 ## Overview 
 - Datasets and Data-Loading
 - Data Preprocessing
@@ -24,10 +22,6 @@ ref : https://keras.io/examples/audio/ctc_asr/.
 LJ speech is a  public domain speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours.
 
 link : https://keithito.com/LJ-Speech-Dataset/
-
-
-![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/model.png)
-
 
 
 ### Data Preprocessing
@@ -67,9 +61,9 @@ The model can be downloaded from  https://keras.io/examples/audio/ctc_asr/
 Below are the results  got from trained transformer.
 
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred_1.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred1.png)
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred_2.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/pred2.png)
 
 
 ## How to use.
