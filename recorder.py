@@ -53,6 +53,8 @@ sound = AudioSegment.from_mp3("recordedFile.wav")
 # spliting audio files
 audio_chunks = split_on_silence(sound, min_silence_len=200, silence_thresh=-40 )
 list_of_chunk_files=[]
+
+
 #loop is used to iterate over the output list
 for i, chunk in enumerate(audio_chunks):
    output_file = "chunk{0}.wav".format(i)
@@ -60,11 +62,10 @@ for i, chunk in enumerate(audio_chunks):
    print("Exporting file", output_file)
    chunk.export(output_file, format="wav")
 # chunk files saved as Output  
-
+'''
 
 def writing_file(predictions):
-            
-            # Program to show various ways to read and
+   
             # write data in a file.
             file1 = open("Notes.txt","w")
 
@@ -72,3 +73,6 @@ def writing_file(predictions):
             file1.close() #to change file access modes
             
 writing_file(predictions)
+
+
+'''
