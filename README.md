@@ -52,7 +52,7 @@ This demonstration shows how to combine a 2D CNN, RNN and a Connectionist Tempor
 The model can be downloaded from  https://keras.io/examples/audio/ctc_asr/
 
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/model.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/note_taking_bot/main/images/mdel.png)
 
 
 #### Training
